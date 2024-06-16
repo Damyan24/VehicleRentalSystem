@@ -21,7 +21,7 @@ public class CarInvoice  extends  Invoice{
 
 
 
-    @Override
+
     public  void startMessage() {
         System.out.println("A car that is valued at " + df.format(car.getValue())+", and has security rating of " +car.getSafetyRating()+":");
         System.out.println();

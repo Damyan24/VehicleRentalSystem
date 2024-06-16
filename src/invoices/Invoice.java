@@ -28,7 +28,7 @@ public abstract class Invoice {
 
     private static float insurancePerDay;
 
-    private static float initialInsurancePerDay = Float.parseFloat(df.format(insurancePerDay * vehicle.getValue()));
+    private static final float initialInsurancePerDay = Float.parseFloat(df.format(insurancePerDay * vehicle.getValue()));
 
     private static float finalInsurancePerDay = initialInsurancePerDay;
 
