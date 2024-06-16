@@ -30,7 +30,4 @@ public class Car extends Vehicle {
         return pricePerDay;
     }
 
-    public void setSafetyRating(int safetyRating) {
-        this.safetyRating = safetyRating;
-    }
 }
