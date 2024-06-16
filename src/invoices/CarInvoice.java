@@ -31,7 +31,7 @@ public class CarInvoice  extends  Invoice{
 
     public void initialCosts(){
 
-        System.out.println("Rental cost per day:$" + df.format(costPerDay));;
+        System.out.println("Rental cost per day:$" + df.format(costPerDay));
 
         if(car.getSafetyRating() <= 3){
             System.out.println("Insurance per day:$"+ df.format(initialInsurancePerDay));

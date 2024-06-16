@@ -2,7 +2,6 @@ package invoices;
 
 import customers.MotorcycleCustomer;
 import services.CustomerService;
-import vehicles.Car;
 import vehicles.Motorcycle;
 
 import java.text.DecimalFormat;
@@ -35,7 +34,7 @@ public class MotorcycleInvoice extends Invoice{
 
     public void initialCosts(){
 
-        System.out.println("Rental cost per day:$" + df.format(costPerDay));;
+        System.out.println("Rental cost per day:$" + df.format(costPerDay));
 
         if(motorcycleCustomer.getAge() < 25){
 

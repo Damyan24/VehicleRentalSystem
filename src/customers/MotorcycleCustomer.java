@@ -2,7 +2,7 @@ package customers;
 
 public class MotorcycleCustomer extends Customer {
 
-    private int age;
+    private final int age;
 
     public MotorcycleCustomer(String name,int age) {
         super(name);

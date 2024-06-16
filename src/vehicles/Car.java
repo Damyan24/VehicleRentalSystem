@@ -2,14 +2,7 @@ package vehicles;
 
 public class Car extends Vehicle {
 
-    private int safetyRating;
-
-    private final float insurancePerDay = 0.0001f;
-
-    private final int pricePerDay = 20;
-
-
-
+    private final int safetyRating;
 
 
     public Car( String brand, String model, int value, int safetyRating) {
@@ -23,10 +16,12 @@ public class Car extends Vehicle {
 
 
     public float getInsurancePerDay() {
+        float insurancePerDay = 0.0001f;
         return insurancePerDay;
     }
 
     public int getPricePerDay() {
+        int pricePerDay = 20;
         return pricePerDay;
     }
 

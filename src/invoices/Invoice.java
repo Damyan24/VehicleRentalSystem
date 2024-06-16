@@ -2,7 +2,6 @@ package invoices;
 
 import customers.Customer;
 import services.CustomerService;
-import services.VehicleService;
 import vehicles.Car;
 import vehicles.CargoVan;
 import vehicles.Motorcycle;
@@ -33,15 +32,12 @@ public abstract class Invoice {
 
     private static float finalInsurancePerDay = initialInsurancePerDay;
 
-    public static void setInitialInsurancePerDay(float initialInsurancePerDay) {
-        Invoice.initialInsurancePerDay = initialInsurancePerDay;
-    }
 
     public static void setFinalInsurancePerDay(float finalInsurancePerDay) {
         Invoice.finalInsurancePerDay = finalInsurancePerDay;
     }
 
-    abstract void startMessage() ;
+
 
 
 
@@ -197,17 +193,6 @@ public abstract class Invoice {
         return finalInsurancePerDay;
     }
 
-    public static float getInitialInsurancePerDay() {
-        return initialInsurancePerDay;
-    }
-
-    public static float getInsurancePerDay() {
-        return insurancePerDay;
-    }
-
-    public static int getCostPerDay() {
-        return costPerDay;
-    }
 
 
     public static int getExpectedRentLength() {
@@ -219,5 +204,5 @@ public abstract class Invoice {
     }
 
 
-    public abstract void initialCosts();
+
 }

@@ -20,7 +20,7 @@ public class Garage {
         private static final Car ford = new Car("Ford", "Focus", 22000, 4);
         private static final Car nissan = new Car("Nissan", "Altima", 16500, 3);
 
-        private static  List<Car> cars = List.of(toyota,ford,nissan);
+        private static final List<Car> cars = List.of(toyota,ford,nissan);
 
     }
 
@@ -32,7 +32,7 @@ public class Garage {
         private static final Motorcycle yamaha = new Motorcycle("Yamaha", "YZF-R6", 27000);
         private static final Motorcycle kawasaki = new Motorcycle("Kawasaki", "Ninja 650", 16500);
 
-        private static  List<Motorcycle> motors = List.of(honda,yamaha,kawasaki);
+        private static final List<Motorcycle> motors = List.of(honda,yamaha,kawasaki);
 
     }
 
@@ -46,7 +46,7 @@ public class Garage {
         private static final CargoVan ford = new CargoVan("Ford", "Transit", 50000);
         private static final CargoVan ram = new CargoVan("Ram", "ProMaster", 61000);
 
-        private static  List<CargoVan> vans = List.of(mercedes,ford,ram);
+        private static final List<CargoVan> vans = List.of(mercedes,ford,ram);
 
     }
 

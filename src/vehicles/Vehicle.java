@@ -25,25 +25,17 @@ public class Vehicle {
         return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
+
 
     public String getModel() {
         return model;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
 
     public int getValue() {
         return value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
 
 
 
