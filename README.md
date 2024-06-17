@@ -12,6 +12,6 @@
 
 * Gathering the information for the vehicle of choice using the VehicleService methods.
 
-* Gathering the information about our customer using the CustomerSerive methods
+* Gathering the information about our customer using the CustomerService methods
 
 * Returning invoice
